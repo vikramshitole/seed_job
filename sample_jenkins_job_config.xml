@@ -1,14 +1,8 @@
 folders:
-  - folder_path: "sample1"
-    description: "sample1 description"
-  - folder_path: "sample2"
-    description: "sample2 description"
+  - folder_path: "odin"
+    description: "odin description"
 jobs:
-  - job_path: "sample1/sample1_job"
-    jenkinsfile_git_repo: "https://github.com/{your_user}/sample1.git"
-    jenkinsfile_path: "path/to/Jenkinsfile"
+  - job_path: "odin/odin_build"
+    jenkinsfile_git_repo: "https://github.com/vikramshitole/odin.git"
+    jenkinsfile_path: "Jenkinsfile"
     auto_trigger: true
-  - job_path: "sample2/sample2_job"
-    jenkinsfile_git_repo: "https://github.com/{your_user}/sample2.git"
-    jenkinsfile_path: "path/to/Jenkinsfile"
-    auto_trigger: false
